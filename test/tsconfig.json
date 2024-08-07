@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "moduleResolution": "bundler",
+      "noEmit": true,
+      "jsx": "react",
+      "rootDir": "src",
+      "outDir": "dist",
+      "lib": ["es2021", "dom"],
+      "types": ["jest", "jsdom"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
+}
+  
